@@ -1,0 +1,68 @@
+a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+h1 {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  color: #909090;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.35;
+  margin: 0 0 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+table.compare-list .remove td a {
+  color: #909090;
+}
+table.compare-list .remove td a:hover {
+  color: #0bd9a9;
+}
+table.compare-list .remove td a .remove {
+  background: url("../images/btn_remove.gif") no-repeat 0 0;
+  border-radius: 0;
+  height: 11px;
+  margin-left: 3px;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 11px;
+}
+table.compare-list tr td img {
+  margin-bottom: 5px;
+}
+table.compare-list tr.title td {
+  font-family: Helvetical;
+}
+table.compare-list tr.price {
+  font-family: ;
+}
+table.compare-list tr.price td {
+  text-decoration: none;
+}
+table.compare-list tr.price td .special-price {
+  color: #666;
+  font-size: 22px;
+  font-weight: normal;
+}
+table.compare-list tr.price td .old-price {
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+table.compare-list tr.add-to-cart td a.add_to_cart_button {
+  background: #0bd9a9;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 14px;
+}
+table.compare-list tr.add-to-cart td a.add_to_cart_button:hover {
+  background: #909295;
+}
+table.compare-list tr.stock td span {
+  color: #0bd9a9;
+}

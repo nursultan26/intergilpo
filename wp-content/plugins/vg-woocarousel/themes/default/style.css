@@ -1,0 +1,110 @@
+/* CSS Document */
+.vgwc-wrapper.theme-default {
+	overflow: hidden;
+}
+.vgwc-wrapper.theme-default .owl-buttons {
+	left: 0;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.vgwc-wrapper.theme-default .owl-buttons div {
+	border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.6s ease 0s;
+    width: 50px;
+}
+.vgwc-wrapper.theme-default .owl-buttons .owl-prev {
+	left: -100px;
+}
+.vgwc-wrapper.theme-default .owl-buttons .owl-next {
+	right: -100px;
+}
+.vgwc-wrapper.theme-default:hover  .owl-buttons .owl-prev {
+	left: 30px;
+}
+.vgwc-wrapper.theme-default:hover  .owl-buttons .owl-next {
+	right: 30px;
+}
+
+.vgwc-wrapper.theme-default .vgwc-image-block {
+	 padding: 0 0 10px 0;
+	 position: relative;
+}
+.vgwc-wrapper.theme-default .vgwc-image-block .vgwc-label {
+	height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+.vgwc-wrapper.theme-default .vgwc-image-block .vgwc-onsale {
+	background-color: #23B2DD;
+	color: #FFF;
+    left: 0;
+}
+.vgwc-wrapper.theme-default .vgwc-image-block .vgwc-featured {
+	background-color: #FF0000;
+	color: #FFF;
+    right: 0;
+}
+.vgwc-wrapper.theme-default .vgwc-product-title {
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 0 0 10px 0;
+    text-align: left;
+	margin: 0;
+}
+.vgwc-wrapper.theme-default .vgwc-product-rating {
+	clear: both;
+    height: 26px;
+    line-height: 18px;
+    padding: 0 0 10px;
+    text-align: left;
+}
+.vgwc-wrapper.theme-default .vgwc-product-rating .star-rating {
+	float: left;
+}
+.vgwc-wrapper.theme-default .vgwc-product-price {
+	padding: 0 0 10px 0;
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+.vgwc-wrapper.theme-default .vgwc-product-price ins {
+	background: none;
+	font-size: 16px;
+}
+.vgwc-wrapper.theme-default .vgwc-add-to-cart {
+	position: relative;
+}
+.vgwc-wrapper.theme-default .vgwc-add-to-cart .add_to_cart_inline {
+	border: medium none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+	visibility: collapse;
+	min-height: 36px;
+}
+.vgwc-wrapper.theme-default .vgwc-add-to-cart span.amount {
+	display: none;
+}
+.vgwc-wrapper.theme-default .add_to_cart_button {
+	background-color: #23b2dd;
+    color: #fff;
+	border-radius: 0;
+	left: 0;
+    position: absolute;
+    visibility: visible;
+}

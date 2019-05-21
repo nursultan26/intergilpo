@@ -1,0 +1,90 @@
+.vn-settings .option-box {
+	background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+.vn-settings .shortcode-block {
+    border: 2px solid #d8d6d6;
+    margin-top: 12px;
+	padding-bottom: 30px;
+}
+.vn-settings .option-box:hover {
+	background-color: #F1F1F1;
+}
+.vn-settings .option-title {
+	font-weight: bold;
+	font-size: 14px;
+}
+.vn-settings .option-info {
+	font-style: italic;
+}
+.vn-settings textarea {
+	height: 27px;
+}
+.vn-settings .tab-nav {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+.vn-settings .tab-nav li {
+	background-color: #d8d6d6;
+    display: inline;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 45px;
+    margin: 0;
+    padding: 12px 20px;
+    white-space: nowrap;
+	cursor: pointer;
+}
+.vn-settings .tab-nav li.active {
+	border-top: 2px solid red;
+    font-style: normal;
+}
+.vn-settings  ul.box {
+	border: 2px solid #d8d6d6;
+	background-color: #f1f1f1;
+    margin: 0;
+}
+.vn-settings .control-group {
+	padding: 10px 20px;
+}
+.vn-settings .control-group::before, 
+.vn-settings .control-group::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.vn-settings .control-group::after {
+    clear: both;
+}
+.vn-settings .control-label {
+    float: left;
+    padding-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+.vn-settings .controls {
+    margin-left: 200px;
+}
+.vn-settings .controls input[type="text"] {
+	background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.vn-settings input[type="radio"] {
+    margin-bottom: -5px;
+}
+.vn-settings fieldset.btn-group-yesno {
+	padding-top: 5px;
+}
+.vn-settings .wp-picker-holder {
+	position: absolute;
+	z-index: 999;
+}
+.vn-settings .dropdown {
+	width: 190px !important;
+}
+.vn-settings .tab-box {
+	padding: 15px;
+}

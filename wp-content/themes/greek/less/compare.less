@@ -1,0 +1,95 @@
+/* For compare popup */
+@import 'variables.less';
+
+a {
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+h1 {
+	background: #eee;
+    border-bottom: 1px solid #ddd;
+	color: @headingcolor;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.35;
+	margin: 0 0 15px;
+	text-align: center;
+    text-transform: uppercase;
+}
+table.compare-list {
+	.remove {
+		td {
+			a {
+				color: @textcolor;
+				
+				&:hover {
+					color: @primarycolor;
+				}
+				.remove {
+					background: url("../images/btn_remove.gif") no-repeat 0 0;
+					border-radius: 0;
+					height: 11px;
+					margin-left: 3px;
+					overflow: hidden;
+					text-indent: -999em;
+					width: 11px;
+				}
+			}
+		}
+	}
+	tr {
+		td {
+			img {
+				margin-bottom: 5px;
+			}
+		}
+		&.title {
+			td {
+				font-family: Helvetical;
+			}
+		}
+		&.price {
+			font-family: @pricefont;
+			
+			td {
+				text-decoration: none;
+				
+				.special-price {
+					color: #666;
+					font-size: 22px;
+					font-weight: normal;
+				}
+				.old-price {
+					color: #dddddd;
+					font-size: 20px;
+					font-weight: normal;
+					margin-left: 10px;
+					text-decoration: line-through;
+				}
+			}
+		}
+		&.add-to-cart {
+			td {
+				a.add_to_cart_button {
+					background: @primarycolor;
+					border-radius: 3px;
+					height: 30px;
+					line-height: 30px;
+					margin: 0;
+					padding: 0 14px;
+					
+					&:hover {
+						background: @greycolor;
+					}
+				}
+			}
+		}
+		&.stock {
+			td {
+				span {
+					color: @primarycolor;
+				}
+			}
+		}
+	}
+}
